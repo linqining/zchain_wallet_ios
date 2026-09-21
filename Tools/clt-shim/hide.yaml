@@ -1,0 +1,14 @@
+{
+  "version": 0,
+  "case-sensitive": false,
+  "roots": [
+    {
+      "name": "/Library/Developer/CommandLineTools/usr/include/swift",
+      "type": "directory",
+      "contents": [
+        { "name": "module.modulemap", "type": "file", "external-contents": "Tools/clt-shim/empty.modulemap" },
+        { "name": "bridging.modulemap", "type": "file", "external-contents": "/Library/Developer/CommandLineTools/usr/include/swift/bridging.modulemap" }
+      ]
+    }
+  ]
+}
